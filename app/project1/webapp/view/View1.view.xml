@@ -1,0 +1,22 @@
+<mvc:View controllerName="project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+	xmlns:smartFilterBar="sap.ui.comp.smartfilterbar"
+	xmlns:smartTable="sap.ui.comp.smarttable"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
+    <Page title="Product List">
+        <content>
+            <List id="productList" items="{myModel>/Products}">
+                
+                    <StandardListItem
+                        title= "{myModel>description}"
+                        description="{myModel>ID}"
+                    />
+               
+            </List>
+
+           
+        </content>
+    </Page>
+</mvc:View>

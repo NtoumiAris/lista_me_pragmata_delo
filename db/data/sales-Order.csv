@@ -1,0 +1,8 @@
+ID,date,total,status,customer_ID,items_ID
+1,2024-04-30T10:30:00,10.00,Etoimoparadoto,1,1
+2,2024-04-29T15:45:00,20.00,Shipped,2,2
+3,2024-04-28T09:00:00,15.00,Processing,3,3
+4,2024-04-27T14:20:00,25.00,Delivered,4,4
+5,2024-04-26T11:55:00,30.00,Processing,5,5
+6,2024-04-25T08:40:00,18.00,Shipped,6,6
+7,2024-04-24T16:15:00,22.00,Delivered,7,7
